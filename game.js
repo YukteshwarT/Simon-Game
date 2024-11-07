@@ -5,7 +5,7 @@ var userClickedpattern = [];
 var started = false;
 var level = 0;
 
-$("body").on("click keydown",function(){
+$("body").on("touch keydown",function(){
    if(!started){
     nextSequence();
     started=true;
